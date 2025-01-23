@@ -1,0 +1,9 @@
+{
+    "name": "ROS Noetic",
+    "image": "osrf/ros:noetic-desktop-full",
+    "updateRemoteUserUID": true,
+    "postCreateCommand": "echo 'source /opt/ros/noetic/setup.sh' >> ~/.bashrc",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}

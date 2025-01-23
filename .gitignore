@@ -1,0 +1,2 @@
+# I typically use devcontainers (even for git) so sometimes .devcontainer folders will end up in places I do not need them
+**/.devcontainer/

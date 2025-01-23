@@ -1,0 +1,33 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.find.cursorMoveOnType": false,
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.minimap.autohide": true,
+    "editor.minimap.showMarkSectionHeaders": false,
+    "editor.minimap.showRegionSectionHeaders": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": true,
+    "editor.quickSuggestions": {
+        "strings": "inline"
+    },
+    "editor.screenReaderAnnounceInlineSuggestion": false,
+    "editor.suggest.preview": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.layoutControl.type": "toggles",
+    "workbench.list.smoothScrolling": true,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.editor.mouseBackForwardToNavigate": false,
+    "window.customMenuBarAltFocus": false,
+    "window.dialogStyle": "custom",
+    "security.workspace.trust.enabled": false,
+    "git.autofetch": true,
+    "dev.containers.defaultExtensions": [
+        "donjayamanne.githistory",
+        "mhutchie.git-graph"
+    ]
+}

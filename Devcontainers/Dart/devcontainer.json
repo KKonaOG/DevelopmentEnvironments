@@ -1,0 +1,8 @@
+{
+    "name": "Dart",
+    "image": "dart:stable",
+    "updateRemoteUserUID": true,
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}
