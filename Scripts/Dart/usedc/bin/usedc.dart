@@ -58,7 +58,7 @@ void main(List<String> arguments) {
 
 
     String devContainerRepo = '$targetDir/Devcontainers';
-    String scriptDir = Directory(Platform.script.toFilePath(windows: Platform.isWindows)).parent.path;
+    String scriptDir = '$targetDir/Scripts/Dart/usedc/bin/';
 
     // You can also recommend updating the user's shell configuration (e.g., ~/.bashrc)
     print("================ SUCCESS ================ ");

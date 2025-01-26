@@ -40,7 +40,7 @@ List<String> getNames() {
   final files = devContainerDir.listSync(recursive: true).whereType<File>().where((element) => element.uri.pathSegments.last == "devcontainer.json").toList();
   final List<String> names = [];
   
-    files.forEach((element) {
+    for (var element in files) {
       String name = element.uri.path;
       
       // Remove $DEVCONTAINER_REPOSITORY
@@ -58,7 +58,7 @@ List<String> getNames() {
       }
 
       names.add(name);
-    });
+    }
 
     return names;
 }
