@@ -1,6 +1,6 @@
 {
     "name": "Dart",
-    "image": "docker.io/dart:stable",
+    "image": "docker.io/dart:stble",
     "updateRemoteUserUID": true,
     "features": {
         "ghcr.io/devcontainers/features/git:1": {}
